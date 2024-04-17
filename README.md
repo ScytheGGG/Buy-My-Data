@@ -1,5 +1,5 @@
 # Buy My Data
-Welcome to Buy My Data, a fun project created by me! Ever wondered what it would be like to sell your own data? Well, wonder no more! Buy My Data lets you explore this concept in a playful and entertaining way.
+Welcome to Buy My Data, a fun project created by [me](https://github.com/scytheggg)! Ever wondered what it would be like to sell your own data? Well, wonder no more! Buy My Data lets you explore this concept in a playful and entertaining way.
 
 ## Key Features
 * **Empowering Users:** Take control of your data and decide what to sell and to whom.
