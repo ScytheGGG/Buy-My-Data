@@ -11,7 +11,7 @@ export default function Header() {
                         <div className="Navbar--texts">
                                 <p className="Navbar--text">Home</p>
                                 <p className="Navbar--text">About</p> 
-                                <a href="" className="Navbar--text Navbar--login">Login</a>
+                                <a className="Navbar--text Navbar--login">Login</a>
                         </div>
                 </nav>
         )
