@@ -3,7 +3,7 @@
   "name": "Buy My Data",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "./photos/BuyMyData-Favicon.png",
       "sizes": "192x192",
       "type": "image/png"
     }

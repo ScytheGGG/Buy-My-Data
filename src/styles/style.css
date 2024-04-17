@@ -7,6 +7,58 @@ body {
         margin: 0;
 }
 
-:root {
-        --gray: #141414;
+:root { 
+       /* Navbar color */ 
+       --gray: #1e1f22;
+       /* - - - -- - - - - - -- - - - - - - -- - - */
+       /* LOGO COLORS*/
+       --neon-green: #00ff4d;
+       --green: #66ff94;
+
 }
+
+/* - - - - - - - - - - -- - - - - - -- - - - - - - - - -- -  - - - - - */
+/* Navbar */
+.Navbar {
+        background-color: var(--gray);
+        /* - - - - - - - - - - - - - - - - - - */
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0 3px 6px 0 rgba(50,50,50,1);
+}
+
+.Navbar--logo {
+        margin-left: 30px;
+}
+
+.Navbar--texts {
+        background-color: var(--gray);
+        font-size: 20px;
+        color: white;
+        /* - - - - - - - - - - - - - - - - - - */
+        display: flex;
+        align-items: center;
+        margin-right: 120px;
+
+        .Navbar--text {
+                background-color: var(--gray);
+                /* - - - - - - - - - - - - - - - - - - */
+                right: 0; /* Align to the right */
+                margin-left: 30px;
+        }
+
+        .Navbar--login {
+                background-color: var(--neon-green); /* Blue background color */
+                color: white; /* White text color */
+                padding: 8px 20px; /* Padding around the text */
+                border-radius: 5px; /* Rounded corners */
+                transition: background-color 0.3s ease; /* Smooth transition for background color */
+                text-decoration: none;
+        }
+
+        .Navbar--login:hover {
+                background-color: var(--green); /* Darker blue on hover */
+        }
+}
+    
