@@ -12,5 +12,5 @@ Welcome to Buy My Data, a fun project created by me! Ever wondered what it would
 2. Select which data you want to "sell" and to whom.
 3. Receive compensation based on your data sales.
 
-[!IMPORTANT]
-This is just a concept website. This isn't an actual business (at least yet lol)
+> [!IMPORTANT]
+> This is just a concept website. This isn't an actual business (at least yet lol)
