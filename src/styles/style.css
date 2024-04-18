@@ -13,6 +13,8 @@ body {
        /* LOGO COLORS*/
        --neon-green: #00ff4d;
        --green: #66ff94;
+       /* PAGE THEME COLORS */
+       --blue: #192841;
 
 }
 
@@ -29,6 +31,12 @@ body {
 
 .Navbar--logo {
         margin-left: 30px;
+        transition: width 0.3s ease;
+}
+
+.Navbar--logo:hover {
+        cursor: pointer;
+        width: 8.2%;
 }
 
 .Navbar--texts {
@@ -87,4 +95,24 @@ body {
                 content: none; /* Disable underline effect for login button */
         }
 }
+
+/* - - - - - - - - - - -- - - - - - -- - - - - - - - - -- -  - - - - - */
+/* Mainpage */
+.Mainpage {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        background-color: var(--blue);
+}
+      
+.Mainpage--title {
+        color: #333;
+        margin-bottom: 20px;
+        font-weight: bold;
+}
+      
+.Mainpage--description {
+        color: #666;
+}
+      
     
