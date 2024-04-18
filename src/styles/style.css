@@ -13,9 +13,6 @@ body {
        /* LOGO COLORS*/
        --neon-green: #00ff4d;
        --green: #66ff94;
-       /* PAGE THEME COLORS */
-       --blue: #192841;
-
 }
 
 /* - - - - - - - - - - -- - - - - - -- - - - - - - - - -- -  - - - - - */
@@ -102,7 +99,6 @@ body {
         display: flex;
         justify-content: center;
         padding: 50px;
-        background-color: var(--blue);
 }
       
 .Mainpage--title {
