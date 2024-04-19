@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 export default function Header() {
         const headerStyle = {
@@ -16,4 +16,4 @@ export default function Header() {
                         </div>
                 </nav>
         )
-} 
+}  

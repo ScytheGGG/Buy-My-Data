@@ -43,6 +43,15 @@ body {
         justify-content: space-between;
 }
 
+.Navbar.sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 20;
+        /* Other styles for sticky navbar */
+}
+
 .Navbar--logo {
         margin-left: 30px;
         transition: width 0.3s ease;

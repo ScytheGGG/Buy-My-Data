@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 // if I want to import a section of the webpage from another file, all I have to do is
 // import (element name) from "./element"
 import App from './App';
-import './styles/style.css';
+import './style.css';
 
 // - - - - - - - - - - -
 

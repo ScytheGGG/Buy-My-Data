@@ -1,8 +1,8 @@
 import React from "react"
 
 // website elements
-import Header from "./Header"
-import Mainpage from "./Mainpage"
+import Header from "./b-home/bHeader"
+import Mainpage from "./b-home/bPage"
 
 // the app itself
 export default function App() {
