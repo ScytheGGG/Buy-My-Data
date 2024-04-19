@@ -5,11 +5,26 @@
 
 body {
         margin: 0;
+        overflow-y: scroll;
 }
+
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar {
+        width: 13px;
+        background-color: var(--gray);
+}
+
+::-webkit-scrollbar-thumb {
+        background: var(--white);
+}
+
+/* //////////////////////////////////// */
 
 :root { 
        /* Navbar color */ 
        --gray: #1e1f22;
+       --white: #ffffff;
+       --grayish: #F8F8F8
        /* LOGO COLORS*/
        --neon-green: #00ff4d;
        --green: #66ff94;
@@ -18,12 +33,13 @@ body {
 /* - - - - - - - - - - -- - - - - - -- - - - - - - - - -- -  - - - - - */
 /* Navbar */
 .Navbar {
-        background-color: var(--gray);
+        background-color: var(--white);
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         /* - - - - - - - - - - - - - - - - - - */
+        position: relative;
         padding: 5px;
         display: flex;
         justify-content: space-between;
-        box-shadow: 0 3px 6px 0 rgba(50,50,50,1);
 }
 
 .Navbar--logo {
@@ -37,16 +53,16 @@ body {
 }
 
 .Navbar--texts {
-        background-color: var(--gray);
+        background-color: var(--white);
         font-size: 18px;
-        color: white;
+        color: var(--gray);
         /* - - - - - - - - - - - - - - - - - - */
         display: flex;
         align-items: center;
         margin-right: 100px;
 
         .Navbar--text {
-                background-color: var(--gray);
+                background-color: var(--white);
                 /* - - - - - - - - - - - - - - - - - - */
                 right: 0; 
                 margin-left: 30px;
@@ -66,7 +82,7 @@ body {
         }
 
         .Navbar--text:hover::after {
-                background-color: var(--neon-green);
+                background-color: var(--gray);
         }
 
         .Navbar--gap {
@@ -74,7 +90,7 @@ body {
         }
 
         .Navbar--login {
-                background-color: var(--neon-green); 
+                background-color: var(--gray); 
                 color: white; 
                 /* - - - - - - - - - - - - - - - - - - */
                 padding: 8px 20px; 
@@ -85,7 +101,7 @@ body {
         }
 
         .Navbar--login:hover {
-                background-color: var(--green); 
+                background-color: #666; 
         }
 
         .Navbar--login::after {
@@ -100,15 +116,25 @@ body {
         justify-content: center;
         padding: 50px;
 }
-      
-.Mainpage--title {
-        color: #333;
-        margin-bottom: 20px;
-        font-weight: bold;
+
+.Mainpage--introduction {
+        margin-top: 3%;
+        margin-left: 3%;
+
+        .Mainpage--title {
+                color: var(--gray);
+                font-weight: bold;
+                font-size: 60px;
+                /* - - - - - - - - - - - - - - - - - - */
+                width: 85%;
+                margin-bottom: 50px;
+        }
+              
+        .Mainpage--description {
+                color: #333;
+                font-size: 30px;
+                /* - - - - - - - - - - - - - - - - - - */
+                width: 95%;
+        }
 }
-      
-.Mainpage--description {
-        color: #666;
-}
-      
     
