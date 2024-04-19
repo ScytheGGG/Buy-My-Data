@@ -1,15 +1,17 @@
 import React from "react"
 
 // website elements
-import Header from "./b-home/bHeader"
-import Mainpage from "./b-home/bPage"
+import B_Header from "./b-home/bHeader"
+import B_Page from "./b-home/bPage"
+import B_Footer from "./b-home/bFooter"
 
 // the app itself
 export default function App() {
   return (
     <div>
-      <Header />
-      <Mainpage />
+      <B_Header />
+      <B_Page />
+      <B_Footer />
     </div>
   )
 }

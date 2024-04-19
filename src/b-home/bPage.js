@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Mainpage() {
+export default function B_Page() {
         const MainpageStyle = {
                 fontFamily: 'Inter, sans-serif', // Specify Inter as the primary font
         };
@@ -18,7 +18,7 @@ export default function Mainpage() {
                                         and shape a sustainable digital future.</p>
                                 </div>
                         </div>
-                        <img src="./photos/Artwork-1.1.png" alt="Artwork 1" width="45%"></img>
+                        <img src="./photos/Artwork-1.1.png" alt="Artwork 1" className="Mainpage--artwork_1" width="45%"></img>
                 </nav>
         )
 } 

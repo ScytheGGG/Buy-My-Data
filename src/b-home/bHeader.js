@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-export default function Header() {
+export default function B_Header() {
         const headerStyle = {
                 fontFamily: 'Inter, sans-serif', // Specify Inter as the primary font
         };

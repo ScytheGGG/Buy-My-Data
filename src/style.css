@@ -43,15 +43,6 @@ body {
         justify-content: space-between;
 }
 
-.Navbar.sticky {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 20;
-        /* Other styles for sticky navbar */
-}
-
 .Navbar--logo {
         margin-left: 30px;
         transition: width 0.3s ease;
@@ -146,5 +137,31 @@ body {
                 /* - - - - - - - - - - - - - - - - - - */
                 width: 95%;
         }
+
+        .Mainpage--artwork_1 {
+                margin-right: -1000px;
+        }
 }
-    
+
+/* - - - - - - - - - - -- - - - - - -- - - - - - - - - -- -  - - - - - */
+/* Footer */
+.Footer {
+        background-color: var(--white);
+        border-top: 1px solid rgba(98, 98, 98, 0.5);
+        /* - - - - - - - - - - - - - - - - - - */
+        padding: 5px;
+
+        .Footer--text {
+                background-color: var(--white);
+                text-align: center;
+                color: var(--gray);
+        }
+
+        .Footer--link {
+                background-color: var(--white);
+                text-align: center;
+                text-decoration: none;
+                color: var(--gray);
+                font-weight: bold;
+        }
+}
