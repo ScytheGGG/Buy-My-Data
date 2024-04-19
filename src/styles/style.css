@@ -34,7 +34,8 @@ body {
 /* Navbar */
 .Navbar {
         background-color: var(--white);
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        border-bottom: 1px solid rgba(98, 98, 98, 0.5);
         /* - - - - - - - - - - - - - - - - - - */
         position: relative;
         padding: 5px;
@@ -59,7 +60,7 @@ body {
         /* - - - - - - - - - - - - - - - - - - */
         display: flex;
         align-items: center;
-        margin-right: 100px;
+        margin-right: 35px;
 
         .Navbar--text {
                 background-color: var(--white);
