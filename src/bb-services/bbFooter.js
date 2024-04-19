@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-export default function BB_Footer() {
+export default function BBFooter() {
         const headerStyle = {
                 fontFamily: 'Inter, sans-serif', // Specify Inter as the primary font
         };

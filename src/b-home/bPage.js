@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function B_Page() {
+export default function BPage() {
         const MainpageStyle = {
                 fontFamily: 'Inter, sans-serif', // Specify Inter as the primary font
         };
