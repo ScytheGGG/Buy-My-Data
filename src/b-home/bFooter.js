@@ -6,8 +6,8 @@ export default function BFooter() {
         };
 
         return (
-                <nav className="Footer" style={headerStyle}>
-                        <p className="Footer--text">© 2024 <a className="Footer--link" href="https://scytheggg.github.io/">Karl Tammehoid</a> All rights reserved.</p>
+                <nav className="B-Footer" style={headerStyle}>
+                        <p className="B-Footer--text">© 2024 <a className="B-Footer--link" href="https://scytheggg.github.io/">Karl Tammehoid</a> All rights reserved.</p>
                 </nav>
         )
 }  

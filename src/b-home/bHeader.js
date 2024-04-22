@@ -6,13 +6,13 @@ export default function BHeader() {
         };
 
         return (
-                <nav className="Navbar" style={headerStyle}>
-                        <img src="./photos/BuyMyData.png" alt="Buy My Data logo" className="Navbar--logo" width="8%"></img>
-                        <div className="Navbar--texts">
-                                <p className="Navbar--text">Home</p>
-                                <p className="Navbar--text">Services</p>
-                                <p className="Navbar--text Navbar--gap">Insights</p> 
-                                <a href="/signin" className="Navbar--text Navbar--login">Login</a>
+                <nav className="B-Navbar" style={headerStyle}>
+                        <img src="./photos/BuyMyData.png" alt="Buy My Data logo" className="B-Navbar--logo" width="8%"></img>
+                        <div className="B-Navbar--texts">
+                                <p className="B-Navbar--text">Home</p>
+                                <p className="B-Navbar--text">Services</p>
+                                <p className="B-Navbar--text B-Navbar--gap">Insights</p> 
+                                <a href="/signin" className="B-Navbar--text B-Navbar--login">Login</a>
                         </div>
                 </nav>
         )
